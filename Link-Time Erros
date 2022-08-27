@@ -1,0 +1,55 @@
+=======================
+Link-Time Erros 
+=======================
+
+Code Academey - (C++ for beginers )
+
+
+
+
+Common link-time errors :
+
+ 1) * Using a function that was never defined 
+  
+        ***
+ 
+ 
+ 2) *Writing Main() insted of mamin()
+      
+     -   https://content.codecademy.com/courses/learn-cpp/loops/link-time-error.png
+     
+     
+     
+     Find whats wrong with the code -
+     
+     
+  #include <iostream>
+
+int Main() {
+  
+  int num = 0;
+  int sum = 0;
+  
+  std::cout << "Enter a number: ";
+  std::cin >> num;
+  
+  for (int i = 1; i <= num; i++) {
+    
+    sum = sum + i;
+    std::cout << i << " ";
+    
+  }
+  
+  std::cout << "Sum: " << sum << "\n";
+  
+}
+
+
+
+???????????????
+answer 
+>>>>>>>>>>>>>>>>
+
+Writing Main() insted of mamin()
+
+
